@@ -8,7 +8,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(imgs/background.jpg);
+    background: url(imgs/pexels-photo-355747.jpeg);
     background-attachment: fixed;
     height: 100vh;
 }
@@ -27,9 +27,9 @@ section .box:before {
     left: -20px;
     right: -20px;
     bottom: -20px;
-    background: url(imgs/background.jpg);
+    background: url(imgs/pexels-photo-355747.jpeg);
     background-attachment: fixed;
-    filter: blur(5px);
+    filter: blur(9px);
 
 }
 
@@ -43,10 +43,11 @@ section .box p {
     position: relative;
     margin: 0 0 20px;
     padding: 0;
-    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
     text-transform: uppercase;
     z-index: 2;
-    color: #FFF
+    color: rgb(15, 15, 15)
 
 }
 
@@ -57,7 +58,26 @@ section .box h2 {
     font-size: 25px;
     text-transform: uppercase;
     z-index: 2;
-    color: rgb(141, 137, 137)
+    color: rgb(68, 68, 68)
 
 }
 
+section .box button {
+    position: relative;
+    margin: 0 0 20px;
+    padding: 5;
+    font-size: 16px;
+    text-transform: uppercase;
+    z-index: 2;
+    color: rgb(185, 45, 45)
+
+}
+
+
+.footer {
+    color: #FFF
+}
+
+.navbar-nav {
+    margin-left: auto;
+}

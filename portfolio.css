@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(imgs/pexels-photo-355747.jpeg);
+    background-attachment: fixed;
+    height: 100%;
+}
+.portfolio {
+
+    color: #a0a0a0;
+    background:rgba(92, 92, 92, 0.6);
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+h3, h1 {
+    color: #fff;
+}
+.footer {
+    color: #FFF
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
