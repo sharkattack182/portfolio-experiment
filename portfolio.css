@@ -11,7 +11,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(imgs/nFmVNr.jpg);
+    background: url(imgs/pexels-photo-1662773.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100vh;
@@ -34,7 +34,7 @@ section .box:before {
     left: -20px;
     right: -20px;
     bottom: -20px;
-    background: url(imgs/nFmVNr.jpg);
+    background: url(imgs/pexels-photo-1662773.jpeg);
     background-attachment: fixed;
     filter: blur(9px);
 
