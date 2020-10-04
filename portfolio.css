@@ -14,6 +14,7 @@ section {
     background: url(imgs/pexels-photo-1662773.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
     height: 100vh;
 }
 
@@ -36,7 +37,8 @@ section .box:before {
     bottom: -20px;
     background: url(imgs/pexels-photo-1662773.jpeg);
     background-attachment: fixed;
-    filter: blur(9px);
+    background-size: cover;
+    filter: blur(12px);
 
 }
 
@@ -59,13 +61,14 @@ section .box p {
 }
 
 section .box h2 {
+
     position: relative;
     margin: 0 0 20px;
     padding: 0;
     font-size: 25px;
     text-transform: uppercase;
     z-index: 2;
-    color: rgb(68, 68, 68)
+    color: rgb(34, 34, 34)
 
 }
 
@@ -91,3 +94,24 @@ section .box button {
 .navbar-nav {
     margin-left: auto;
 }
+
+
+.zoom:hover {
+    transform: scale(1.1); 
+}
+
+h3{
+    color: rgb(56, 56, 56);
+    font-size: 20px;
+}
+
+img.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(70%); /* Chrome 19+ & Safari 6+ */
+  }
+  
+  img.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+  }
