@@ -18,7 +18,7 @@ section {
 
 section .box {
     position: relative;
-    max-width: 850px;
+    max-width: 100%;
     padding: 35px;
     box-shadow: 0 5px 15px rgba(0,0,0.5);
     overflow: hidden;
@@ -33,13 +33,13 @@ section .box:before {
     background: url(imgs/pexels-photo-1662773.jpeg);
     background-attachment: fixed;
     background-size: cover;
-    filter: blur(12px);
+    filter: blur(14px);
 
 }
 
 section .box img {
     position: relative;
-    padding: 10px;
+    margin-right: 12px;
     z-index: 2;
 }
 
@@ -70,7 +70,7 @@ section .box button {
     position: relative;
     margin: 0 0 20px;
     padding: 5;
-    font-size: 16px;
+    font-size: 24px;
     text-transform: uppercase;
     z-index: 2;
     color: rgb(170, 170, 170)
@@ -88,4 +88,13 @@ section .box button {
 
 .zoom:hover {
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1200px !important;
+}
+.marginless {
+    margin: 0
 }
